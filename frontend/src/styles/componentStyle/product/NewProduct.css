@@ -1,0 +1,48 @@
+.new-product {
+    margin-top: 2vh;
+    display: grid;
+    border-radius: 15px;
+    width: 90%;
+    justify-self: center;
+    min-width: 200px;
+    padding: 1em;
+    height: auto;
+    max-height: 300px;
+    background-color: #01031d;
+    color: white;
+    grid-template-columns: 50% 1fr auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+}
+
+.new-product input {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #0b0d2a;
+    color: white;
+    font-size: 1em;
+    grid-column: span 3;
+    outline: none;
+}
+
+.new-product input::placeholder {
+    color: #999;
+}
+
+.new-product button {
+    grid-column: span 3;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0240ff;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.new-product button:hover {
+    background-color: #0035cc;
+}
+

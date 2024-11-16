@@ -1,0 +1,58 @@
+.homeHeader {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 2em 5vw 1em 5vw;
+
+}
+
+.homeHeader h1 {
+    margin-top: 1vh;
+    font-size: 2em;
+    color: white;
+}
+
+.search-button {
+    width: 2em;
+    height: 3em;
+    background-color: transparent;
+    border: transparent 0px solid;
+    margin-right: 3vw;
+}
+
+.search-button svg {
+    width: 2em;
+    height: 3em;
+    color: white;
+    stroke-width: 1;
+}
+
+.open-search-container {
+    display: flex;
+    border: white solid 1px;
+    border-radius: 20px;
+}
+
+.close-search-container {
+    display: flex;
+    border: transparent solid 1px;
+    border-radius: 20px;
+}
+
+.search-bar {
+    align-self: center;
+    margin: 1vh 1em 1vh 1em;
+    width: 30vw;
+    background-color: transparent;
+    border: solid white 1px;
+    border-width: 0px 0px 1px 0px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px transparent;
+    border:0px solid transparent;
+    color: white;
+}

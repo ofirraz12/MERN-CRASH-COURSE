@@ -1,0 +1,85 @@
+.product {
+    margin-top: 2vh;
+    display: grid;
+    border-radius: 15px;
+    width: 90%;
+    justify-self: center;
+    min-width: 200px;
+    padding: 1em 1em 0em 1em;
+    height: 30vh;
+    max-height: 250px;
+    background-color: #01031d;
+    color: white;
+    grid-template-columns: 50% 1fr auto;
+    grid-template-rows: auto auto;
+
+}
+
+.product img {
+    align-self: center;
+    justify-self: center;
+    width: 90%;
+    max-width: 150px; 
+    height: auto;
+    max-height: 175px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.product h1{
+    font-size: 1em;
+    grid-row: 1;
+    grid-column: 2 / span 2;
+    color: white;
+    padding: 10%;
+}
+
+.product h2{
+    align-self: center;
+    justify-self: center;
+    font-size: 1.5em;
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    padding-top: 1vh;
+}
+
+.productButtons {
+    align-self: center;
+    justify-self: center;
+    grid-row: 2;
+    grid-column: 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#editProduct {
+    grid-row: 3;
+    background-color: transparent;
+    padding: 5px;
+    background-color: transparent;
+    border: transparent 0px solid;
+    
+}
+
+#editProduct svg {
+    width: 2em;
+    height: 2em;
+    color: white;
+}
+
+#deleteProduct {
+    grid-row: 3;
+    background-color: transparent;
+    padding: 5px;
+    background-color: transparent;
+    border: transparent 0px solid;
+}
+
+#deleteProduct svg {
+    width: 2em;
+    height: 2em;
+    color: white;
+}

@@ -1,0 +1,23 @@
+.productsGrid {
+    padding-top: 2vh;
+    width: 90%;
+    margin: 0 auto 8em auto;
+    border: white 1px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(auto, auto);
+    gap: 1em;
+    max-height: 75vh;
+    overflow-y: auto;
+    padding-bottom: 1em; 
+}
+
+
+.productsGrid::-webkit-scrollbar {
+    width: 8px;
+}
+
+.productsGrid::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 4px;
+}

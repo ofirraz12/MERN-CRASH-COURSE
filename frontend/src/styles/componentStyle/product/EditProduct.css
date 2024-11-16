@@ -1,0 +1,48 @@
+.edit-product {
+    display: block;
+    width: 200%;
+    height: 100%;
+}
+
+.edit-product input {
+    width: 90%;
+    height: 12%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #0b0d2a;
+    color: white;
+    font-size: 1em;
+    outline: none;
+}
+
+.edit-product input::placeholder {
+    color: #999;
+}
+
+.edit-product h1 {
+    font-size: 0.8em;
+    padding: 0.5em 0px;
+}
+
+.edit-product button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0240ff;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.edit-product button:hover {
+    background-color: #0035cc;
+}
+
+.edit-product button:last-of-type {
+    background-color: #990000;
+}
+
+.edit-product button:last-of-type:hover {
+    background-color: #800000;
+}
